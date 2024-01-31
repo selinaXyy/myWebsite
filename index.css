@@ -1,0 +1,162 @@
+/* >992px & default*/
+.container{
+    margin-top: 6rem;
+}
+
+.myPic>img{
+    border-radius: 50%;
+    margin-top: -6rem;
+    margin-bottom:3%;
+    margin-left: 1rem;
+    box-shadow: #7d7d7d 0 0 15px;
+}
+
+#aboutMe{
+    background-color: #3b404b;
+    border-radius: 15px;
+    padding-left:2%;
+    padding-right:2%;
+}
+
+#welcomeH1{
+    padding-bottom:3%;
+    color:#fffefe;
+    text-shadow: #7d7d7d 8px 3px 8px;
+}
+
+.contactBtn{
+    text-align: right;
+    margin-top: 2rem;
+}
+
+#contactMe{
+    height: 70px;
+    width:300px;
+    border-radius: 35px;
+    border:none;
+    background: linear-gradient(#a42cff, #4974ff);
+    margin-right: 2rem;
+    font-family: 'Arial';
+    font-size: 26px;
+    color:rgb(244, 245, 247);
+    box-shadow: rgb(64, 64, 84) 6px 3px 8px, rgb(64, 64, 84) -3px -3px 8px;
+}
+
+#contactMe:hover{
+    filter: brightness(150%);
+}
+
+#welcomeIntroduction{
+    font-size:20px;
+    padding-right: 3%;
+}
+
+#name{
+    color:#3559E0;
+    font-weight: bold;
+}
+
+.aboutMeContent{
+    display:flex;
+    height:60vh;
+    align-items: center;
+}
+
+#introEnd{
+    font-family: 'Spectral';
+    font-size: 23.5px;
+}
+
+
+
+/* <= 1200px & > 992px*/
+@media (max-width:1200px){
+    #aboutMePage img{
+        height:227px;
+        width:222px;
+    }
+
+    .headers{
+        margin-bottom: 8rem;
+    }
+
+    .container{
+        margin-bottom: 12rem;
+    }
+}
+
+/* <= 768px & >= 576px*/
+@media (max-width:768px){
+    #contactMe{
+        height:60px;
+        width:280px;
+        font-size: 26px;
+    }
+
+    .container{
+        margin-bottom: 16rem;
+    }
+
+    .contactBtn{
+        margin-top: 1.6rem;
+    }
+    
+}
+
+/* <= 576px (mobile phone)*/
+@media (max-width:576px){
+
+    .myPic{
+        text-align: center;
+        margin-top: -2.5rem;
+    }
+
+    .myPic>img{
+        padding-left: 0%;
+        margin-left: 0%;
+    }
+
+    .headers{
+        margin-bottom: 10rem;
+    }
+
+    #welcomeH1{
+        padding-top: 6%;
+        padding-bottom: 2%;
+    }
+
+    #aboutMePage img{
+        margin-bottom: -1rem;
+        height:170px;
+        width:160px;
+    }
+
+    .container h1{
+        font-size: 21px;
+    }
+
+    .container p{
+        font-size: 15px;
+    }
+
+    #introEnd{
+        font-size: 18px;
+        font-style: italic;
+    }
+
+    .contactBtn{
+        text-align: center;
+        margin-top: 3rem;
+    }
+
+    #contactMe{
+        height:47px;
+        width:200px;
+        font-size: 20px;
+        margin-right: 0%;
+    }
+    
+    .container{
+        margin-bottom: 0%;
+    }
+}

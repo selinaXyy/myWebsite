@@ -1,0 +1,269 @@
+/* >992px & default*/
+#resume{
+    background-color: #3b404b;
+    border-radius: 15px;
+    padding-left:2%;
+    padding-right:2%;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p, .languages h5{
+    font-family:Arial, Helvetica, sans-serif;
+    color:#D8D8D8;
+}
+
+.subheadings{
+    color:#A9A9A9;
+}
+
+#linkRow svg, .downloadResume a{
+    color:#3870be;
+}
+
+#linkRow .github svg, #linkRow .linkedin svg{
+    text-decoration: none;
+}
+
+#linkRow svg:hover, #linkRow a:hover{
+    color:white;
+}
+
+.downloadResume{
+    padding-top: 1rem;
+    padding-bottom: -1rem;
+}
+
+.downloadResume h4{
+    margin: 0px 0px 0px 0px !important;
+}
+
+.workExperience .subheadings, .educationalBackground .subheadings{
+    margin-bottom:2%;
+}
+
+.languages h2{
+    margin-bottom: 2%;
+}
+
+.overview p{
+    line-height: 2em;
+}
+
+.languagesGrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.english h4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.english h5{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.chinese h4{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+.chinese h5{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+.chinese{
+    margin-top: 1%;
+}
+
+#linkRow{
+    font-size: 22px;
+}
+
+.educationalBackground h3{
+    font-size: 25px;
+}
+
+.educationalBackground h4{
+    font-size: 22px;
+}
+
+.workExperience h3{
+    font-size: 25px;
+}
+
+.workExperience h4{
+    font-size: 22px;
+}
+
+.skillsAndTechnologies h3{
+    font-size: 25px;
+}
+
+.languages h4{
+    font-size: 22px;
+}
+
+.languages h5{
+    font-size:18px;
+}
+
+
+/* <= 992px & > 768px*/
+@media (max-width:992px){
+
+    #technologies{
+        margin-top: 3.5%;
+    }
+
+    .headers{
+        margin-bottom: 2.5rem;
+    }
+    
+}
+
+
+/* <= 576px (mobile phone)*/
+@media (max-width:576px){
+
+/**/
+.headers{
+    margin-bottom: 2rem;
+}
+
+/**/
+#linkRow{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.downloadResume{
+    grid-area: 1 / 1 / 2 / 2 ;
+}
+
+.github{
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.linkedin{
+    grid-area: 1 / 3 / 2 / 4;
+}
+
+/**/
+#linkRow h4{
+    font-size: 16px;
+}
+
+#linkRow svg{
+    width:30px ;
+    height:30px ;
+}
+
+#linkRow h4 svg{
+    width:20px ;
+    height:20px ;
+}
+
+
+/**/
+.overview h2{
+    font-size: 20px;
+}
+
+.overview p{
+    font-size: 14px;
+    line-height: 1.5em;
+}
+
+
+/**/
+.educationalBackground h2{
+    font-size:20px;
+}
+
+.educationalBackground h3{
+    font-size:19px;
+}
+
+.educationalBackground h4{
+    font-size: 18px;
+}
+
+.educationalBackground h5{
+    font-size:17px;
+}
+
+.educationalBackground p{
+    font-size: 14px;
+    padding:1%;
+    margin: 0;
+}
+
+
+/**/
+.workExperience h2{
+    font-size:20px;
+}
+
+.workExperience h3{
+    font-size:19px;
+}
+
+.workExperience h4{
+    font-size: 18px;
+}
+
+.workExperience h5{
+    font-size:17px;
+}
+
+.workExperience p{
+    font-size: 14px;
+    padding:1%;
+    margin: 0;
+}
+
+
+/**/
+.skillsAndTechnologies h2{
+    font-size:20px;
+}
+
+.skillsAndTechnologies h3{
+    font-size:19px;
+}
+
+.skillsAndTechnologies p{
+    font-size: 14px;
+    padding:1%;
+    margin: 0;
+}
+
+
+/**/
+.languages h2{
+    font-size:20px;
+}
+
+.languages h4{
+    font-size: 18px;
+}
+
+.languages h5{
+    font-size:15px;
+}
+
+/**/
+.certificates h2{
+    font-size: 20px;
+}
+
+}
+
+

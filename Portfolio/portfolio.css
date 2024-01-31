@@ -1,0 +1,72 @@
+/* >992px & default*/
+#portfolio{
+  background-color: #3b404b;
+  border-radius: 15px;
+  padding-left:2%;
+  padding-right:2%;
+}
+
+.container{
+    margin-top:3.5%;
+}
+
+.project img{
+  width: 68%;
+  height:34%;
+  border-radius: 20px;
+  margin-bottom: 2%;
+}
+
+.project img:hover{
+  filter:brightness(130%);
+}
+
+.project p{
+  font-family:serif,Times;
+  font-size:18px;
+  color:#A9A9A9;
+}
+
+#underline{
+  text-decoration: underline;
+  text-decoration-color: aliceblue;
+}
+
+.note{
+  text-align: left;
+  margin-bottom:3.5%;
+  margin-top:4.5%;
+}
+
+#githubRedirectionNote{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:15px;
+  color: rgb(255, 239, 149);
+}
+
+@media (max-width:768px){
+  .project img{
+      width: 78%;
+      height:73%
+  }
+}
+
+@media (max-width:576px){
+
+  .project h3{
+      font-size:19px;
+  }
+
+  .project p{
+      font-size: 14px;
+  }
+
+  .note{
+      margin-bottom: 4.5%;
+  }
+
+  #githubRedirectionNote{
+    font-size: 13px;
+  }
+  
+}
