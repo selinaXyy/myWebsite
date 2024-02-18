@@ -1,4 +1,4 @@
-/* >=1200px & default*/
+/* >=992px & default*/
 #resume{
     background-color: #3b404b;
     border-radius: 15px;
@@ -121,8 +121,8 @@ p, .languages h5{
 }
 
 .techIcon>img{
-    width:120px;
-    height:120px;
+    width:100px;
+    height:100px;
     margin: 1rem;
 }
 
@@ -132,14 +132,6 @@ p, .languages h5{
 
 .languages h5{
     font-size:18px;
-}
-
-/* < 1200px & >= 992px */
-@media (max-width:1200px){
-    .techIcon>img{
-        width:100px;
-        height:100px;
-    }
 }
 
 /* < 992px & >= 768px*/
@@ -278,10 +270,15 @@ p, .languages h5{
 }
 
 /**/
+
 .techIcon>img{
     width:45px;
     height:45px;
-    margin: 1rem;
+    margin:10px;
+}
+
+#technologies{
+    margin-bottom:-10px;
 }
 
 }
