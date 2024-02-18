@@ -40,7 +40,7 @@ p, .languages h5{
     margin: 0px 0px 0px 0px !important;
 }
 
-.workExperience .subheadings, .educationalBackground .subheadings{
+.subheadings, .educationalBackground .subheadings{
     margin-bottom:2%;
 }
 
@@ -93,16 +93,49 @@ p, .languages h5{
     font-size: 22px;
 }
 
-.workExperience h3{
-    font-size: 25px;
-}
-
-.workExperience h4{
-    font-size: 22px;
-}
-
 .skillsAndTechnologies h3{
     font-size: 25px;
+}
+
+#technologies{
+    margin-top: 3.5%;
+    margin-bottom: -2rem;
+}
+
+.LanguagesAndFrontEnd, .backEnd{
+    display:grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+}
+
+.cSharpIcon, .nodeJsIcon{
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+.CppIcon, .ejsIcon{
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+.JsIcon, .postgresqlIcon{
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+.reactIcon, .apiIcon{
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+.htmlIcon, .githubIcon{
+    grid-area: 3 / 1 / 4 / 2;
+}
+
+.cssIcon{
+    grid-area:3 / 2 / 4 / 3;
+}
+
+.techIcon>img{
+    width:120px;
+    height:120px;
+    margin: 2rem;
 }
 
 .languages h4{
@@ -117,16 +150,20 @@ p, .languages h5{
 /* <= 992px & > 768px*/
 @media (max-width:992px){
 
-    #technologies{
-        margin-top: 3.5%;
-    }
-
     .headers{
         margin-bottom: 2.5rem;
     }
     
 }
 
+/* <=768px & >576px */
+@media (max-width:768px){
+
+    .techIcon>img{
+        width:80px;
+        height:80px;
+    }
+}
 
 /* <= 576px (mobile phone)*/
 @media (max-width:576px){
@@ -207,30 +244,6 @@ p, .languages h5{
 
 
 /**/
-.workExperience h2{
-    font-size:20px;
-}
-
-.workExperience h3{
-    font-size:19px;
-}
-
-.workExperience h4{
-    font-size: 18px;
-}
-
-.workExperience h5{
-    font-size:17px;
-}
-
-.workExperience p{
-    font-size: 14px;
-    padding:1%;
-    margin: 0;
-}
-
-
-/**/
 .skillsAndTechnologies h2{
     font-size:20px;
 }
@@ -262,6 +275,12 @@ p, .languages h5{
 /**/
 .certificates h2{
     font-size: 20px;
+}
+
+/**/
+.techIcon>img{
+    width:70px;
+    height:70px;
 }
 
 }
