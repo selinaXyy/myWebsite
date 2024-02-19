@@ -106,6 +106,10 @@ p, .languages h5{
     font-size: 25px;
 }
 
+.skillsAndTechnologies .col-6:nth-child(2), .languages h5{
+    padding-left: 10rem;
+}
+
 #technologies{
     margin-top: 3.5%;
     margin-bottom: -1rem;
@@ -114,6 +118,8 @@ p, .languages h5{
 .LanguagesAndFrontEnd, .backEnd{
     display:flex;
     justify-content: space-between;
+    margin-left: -16px;
+    margin-right: -16px;
 }
 
 .techIcon>img{
@@ -150,6 +156,10 @@ p, .languages h5{
     .techIcon>img{
         width:60px;
         height:60px;
+    }
+
+    .skillsAndTechnologies .col-6:nth-child(2), .languages h5{
+        padding-left: 5rem;
     }
 }
 
@@ -274,6 +284,15 @@ p, .languages h5{
 
 #technologies{
     margin-bottom:-10px;
+}
+
+.skillsAndTechnologies .col-6:nth-child(2), .languages h5{
+    padding-left: 0;
+}
+
+.LanguagesAndFrontEnd, .backEnd{
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 }
