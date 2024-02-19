@@ -286,10 +286,6 @@ p, .languages h5{
     margin-bottom:-10px;
 }
 
-.skillsAndTechnologies .col-6:nth-child(2), .languages h5{
-    padding-left: 0;
-}
-
 .LanguagesAndFrontEnd, .backEnd{
     margin-left: -10px;
     margin-right: -10px;
