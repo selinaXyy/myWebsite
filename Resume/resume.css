@@ -1,13 +1,28 @@
 /* >=992px & default*/
 #resume{
-    background-color: #3b404b;
+    background-color:#bfbfbf;
+    box-shadow: 0 0 24px #ffffff;
     border-radius: 15px;
     padding-left:2%;
     padding-right:2%;
 }
 
+#resume a{
+    color:#525151;
+}
+
+#aboutMe a, #portfolio a{
+    color: #bfbfbf;
+}
+
 body{
     font-family: 'Times New Roman', Times, serif;
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/shattered-dark.png");
+}
+
+p{
+    font-size: 20px;
 }
 
 p, .languages h5{
@@ -20,7 +35,7 @@ p, .languages h5{
 }
 
 #linkRow svg, .downloadResume a{
-    color:#3870be;
+    color:#5a9fff;
 }
 
 #linkRow .github svg, #linkRow .linkedin svg{

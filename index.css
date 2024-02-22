@@ -1,4 +1,9 @@
 /* >992px & default*/
+body{
+    background-color: #000000;
+    background-image: url("https://www.transparenttextures.com/patterns/shattered-dark.png");
+}
+
 .container{
     margin-top: 6rem;
 }
@@ -12,10 +17,19 @@
 }
 
 #aboutMe{
-    background-color: #3b404b;
+    background-color:#bfbfbf;
+    box-shadow: 0 0 24px #ffffff;
     border-radius: 15px;
     padding-left:2%;
     padding-right:2%;
+}
+
+#aboutMe a{
+    color:#525151;
+}
+
+#resume a, #portfolio a{
+    color: #bfbfbf;
 }
 
 #welcomeH1{
@@ -52,7 +66,7 @@
 }
 
 #name{
-    color:#3559E0;
+    color:#5a7eff;
     font-weight: bold;
 }
 
