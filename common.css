@@ -28,6 +28,10 @@
     .headers li{
         font-size: 30px;
     }
+
+    .headers ul{
+        gap: 0;
+    }
     
 }
 
