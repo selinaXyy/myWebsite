@@ -4,10 +4,6 @@ body{
     background-image: url("https://www.transparenttextures.com/patterns/shattered-dark.png");
 }
 
-.container{
-    margin-top: 6rem;
-}
-
 .myPic>img{
     border-radius: 50%;
     margin-top: -6rem;
@@ -60,6 +56,10 @@ body{
     filter: brightness(150%);
 }
 
+#contactMe svg{
+    margin-right: 0.5rem;
+}
+
 #welcomeIntroduction{
     font-size:20px;
     padding-right: 3%;
@@ -71,6 +71,7 @@ body{
 }
 
 .aboutMeContent{
+    margin-top: 6rem;
     display:flex;
     height:60vh;
     align-items: center;
@@ -168,6 +169,11 @@ body{
         width:200px;
         font-size: 20px;
         margin-right: 0%;
+    }
+
+    #contactMe svg{
+        height: 18px;
+        width: 18px;
     }
     
     .container{

@@ -1,8 +1,10 @@
 /* >992px & default*/
 .headers ul{
     list-style: none;
-    display:flex;
-    justify-content: space-evenly;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    gap:10%;
     font-size:38px;
     padding:0;
     margin-top:2%;
@@ -15,7 +17,7 @@
 }
 
 .headers a:hover{
-    color:#ffffff;
+    color:#ffffff !important;
 }
 
 

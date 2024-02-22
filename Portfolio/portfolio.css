@@ -20,10 +20,6 @@ body{
   color: #bfbfbf;
 }
 
-.container{
-    margin-top:3.5%;
-}
-
 .project img{
   width: 68%;
   height:34%;
@@ -73,6 +69,11 @@ body{
 
   .project p{
       font-size: 14px;
+  }
+
+  .project svg{
+    height:16px;
+    width:16px;
   }
 
   .note{
