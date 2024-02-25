@@ -359,10 +359,12 @@ p, .languages h5{
 /**/
 .certificationLink{
     font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
 }
 
 .certifications{
-    margin-bottom: 3rem;
+    margin-bottom: 2.5rem;
 }
 
 }
