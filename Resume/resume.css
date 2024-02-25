@@ -317,25 +317,6 @@ p, .languages h5{
     margin: 0;
 }
 
-
-/**/
-.languages h2{
-    font-size:20px;
-}
-
-.languages h4{
-    font-size: 18px;
-}
-
-.languages h5{
-    font-size:15px;
-}
-
-/**/
-.certificates h2{
-    font-size: 20px;
-}
-
 /**/
 .techIcon>img{
     width:45px;
@@ -354,6 +335,25 @@ p, .languages h5{
 .LanguagesAndFrontEnd, .backEnd{
     margin-left: -10px;
     margin-right: -10px;
+}
+
+
+/**/
+.languages h2{
+    font-size:20px;
+}
+
+.languages h4{
+    font-size: 18px;
+}
+
+.languages h5{
+    font-size:15px;
+}
+
+/**/
+.certifications h2{
+    font-size: 20px;
 }
 
 /**/
