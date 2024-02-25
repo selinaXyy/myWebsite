@@ -14,7 +14,7 @@ body{
 
 #aboutMe{
     background-color:#bfbfbf;
-    box-shadow: 0 0 24px #ffffff;
+    box-shadow: 0 0 20px #ffffff;
     border-radius: 15px;
     padding-left:2%;
     padding-right:2%;
@@ -115,6 +115,10 @@ body{
     .contactBtn{
         margin-top: 1.6rem;
     }
+
+    #aboutMe{
+        box-shadow: 0 0 15px #ffffff;
+      }
     
 }
 

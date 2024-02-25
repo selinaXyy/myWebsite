@@ -1,7 +1,7 @@
 /* >=992px & default*/
 #resume{
     background-color:#bfbfbf;
-    box-shadow: 0 0 24px #ffffff;
+    box-shadow: 0 0 20px #ffffff;
     border-radius: 15px;
     padding-left:2%;
     padding-right:2%;
@@ -165,12 +165,25 @@ p, .languages h5{
     margin-bottom: 0;
 }
 
-.languages h4{
+.languages h4, .certificationLink{
     font-size: 22px;
 }
 
 .languages h5{
     font-size:18px;
+}
+
+.certifications{
+    margin-bottom: 5rem;
+}
+
+.certificationLink{
+    margin-top: 1rem;
+    color:#A9A9A9;
+}
+
+.certificationLink a{
+    color: #9F70FD;
 }
 
 /* < 992px & >= 768px*/
@@ -215,6 +228,10 @@ p, .languages h5{
     #linkRow h4 svg{
         width:30px ;
         height:30px ;
+    }
+
+    #resume{
+        box-shadow: 0 0 15px #ffffff;
     }
 }
 
@@ -337,6 +354,15 @@ p, .languages h5{
 .LanguagesAndFrontEnd, .backEnd{
     margin-left: -10px;
     margin-right: -10px;
+}
+
+/**/
+.certificationLink{
+    font-size: 16px;
+}
+
+.certifications{
+    margin-bottom: 3rem;
 }
 
 }

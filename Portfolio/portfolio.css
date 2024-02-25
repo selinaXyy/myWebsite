@@ -6,7 +6,7 @@ body{
 
 #portfolio{
   background-color:#bfbfbf;
-  box-shadow: 0 0 24px #ffffff;
+  box-shadow: 0 0 20px #ffffff;
   border-radius: 15px;
   padding-left:2%;
   padding-right:2%;
@@ -58,6 +58,10 @@ body{
   .project img{
       width: 78%;
       height:73%
+  }
+
+  #portfolio{
+    box-shadow: 0 0 15px #ffffff;
   }
 }
 
