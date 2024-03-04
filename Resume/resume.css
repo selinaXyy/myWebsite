@@ -148,17 +148,24 @@ p, .languages h5{
     margin-bottom: -1rem;
 }
 
-.LanguagesAndFrontEnd, .backEnd{
-    display:flex;
+.techIconContainer{
+    display: flex;
     justify-content: space-between;
-    margin-left: -16px;
-    margin-right: -16px;
 }
 
 .techIcon>img{
     width:100px;
     height:100px;
-    margin: 1rem;
+    margin: auto;
+    margin-top: 1rem;
+}
+
+.cSharpIcon, .reactIcon{
+    margin-left: 0;
+}
+
+.cssIcon, .githubIcon{
+    margin-right: 0;
 }
 
 .languagesGrid .subheadings{
@@ -317,24 +324,20 @@ p, .languages h5{
     margin: 0;
 }
 
+
 /**/
 .techIcon>img{
     width:45px;
     height:45px;
-    margin:10px;
+    margin-top:10px;
 }
 
 #technologies{
-    margin-bottom:-10px;
+    margin-bottom:-6.5px;
 }
 
 .skillsAndTechnologies .col-6:nth-child(2), .languages h5{
     padding-left: 2rem;
-}
-
-.LanguagesAndFrontEnd, .backEnd{
-    margin-left: -10px;
-    margin-right: -10px;
 }
 
 
