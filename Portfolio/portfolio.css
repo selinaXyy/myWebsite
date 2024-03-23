@@ -48,10 +48,14 @@ body{
   margin-top:4.5%;
 }
 
-#githubRedirectionNote{
+#redirectionNote, #livePreviewNote{
   font-family: Arial, Helvetica, sans-serif;
   font-size:15px;
   color: rgb(255, 239, 149);
+}
+
+#livePreviewNote{
+  color: #4974ff;
 }
 
 @media (max-width:768px){
@@ -84,7 +88,7 @@ body{
       margin-bottom: 4.5%;
   }
 
-  #githubRedirectionNote{
+  #redirectionNote{
     font-size: 13px;
   }
   
